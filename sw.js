@@ -35,7 +35,7 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
-  if (new URL(req.url).pathname.startsWith('/obrigado')) return;   // página de obrigado: sempre a versão publicada
+  if (/^\/(obrigado|extras\/)/.test(new URL(req.url).pathname)) return;   // páginas de obrigado: sempre a versão publicada, fora do cache
   e.respondWith((async () => {
     const cache = await caches.open(VERSAO);
     const achado = await cache.match(req, { ignoreSearch: true });
