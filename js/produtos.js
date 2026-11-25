@@ -14,7 +14,7 @@ window.PRODUTOS = [
     nome: '27 Receitas Francesas de Natal',
     resumo: 'Coq au vin, bûche de Noël, crème brûlée, gratin dauphinois e mais.',
     bandeira: 'fr',
-    url: '',
+    url: 'https://pay.wiapy.com/6b0772621def0eef30f31152',
   },
   {
     id: 'eua',

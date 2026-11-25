@@ -1,5 +1,5 @@
 /* Service worker: funciona offline. Ao mudar receitas/fotos, aumente VERSAO. */
-const VERSAO = 'ceia-v9';
+const VERSAO = 'ceia-v10';
 const ICONES_UI = ['arvore', 'bolo', 'brilho', 'carrinho', 'cesta', 'chama', 'check', 'coquetel', 'coracao', 'coracao-vazio',
   'cozinheira', 'coxa', 'cronometro', 'fechar', 'floco', 'lampada', 'lupa', 'mao', 'prato', 'presente', 'queijo',
   'sacolas', 'salada', 'tachinha', 'tacas'].map(n => `img/ui-web/${n}.webp`);
