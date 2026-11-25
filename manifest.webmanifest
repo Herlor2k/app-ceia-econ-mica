@@ -1,0 +1,22 @@
+{
+  "name": "Ceia Econômica de Natal",
+  "short_name": "Ceia de Natal",
+  "description": "Receitas de Natal e a Despensa Mágica: diga o que tem em casa e descubra o que dá para fazer.",
+  "lang": "pt-BR",
+  "start_url": "./#/despensa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF9F0",
+  "theme_color": "#1E5B3F",
+  "icons": [
+    { "src": "img/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "img/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Despensa Mágica", "url": "./#/despensa" },
+    { "name": "Pratos principais", "url": "./#/principais" },
+    { "name": "Sobremesas", "url": "./#/sobremesas" }
+  ]
+}

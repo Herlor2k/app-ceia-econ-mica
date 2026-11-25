@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1E5B3F">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Ceia de Natal">
+<title>Compra confirmada · Aplicativo Ceia Econômica de Natal</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/img/icons/favicon-64.png">
+<link rel="apple-touch-icon" href="/img/icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:#FBF5EC;font-family:'Nunito Sans',system-ui,sans-serif;color:#2B2B2B;line-height:1.5}
+.topo{background:linear-gradient(135deg,#2C6B4B 0%,#1E5B3F 45%,#123826 100%);color:#fff;padding:36px 20px 120px;text-align:center}
+.selo{display:inline-flex;align-items:center;gap:8px;border:1.5px solid #F2C14E;color:#F2C14E;border-radius:999px;padding:7px 16px;font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+h1{font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:clamp(30px,6vw,50px);line-height:1.12;margin:20px auto 14px;max-width:720px}
+h1 span{color:#F2C14E}
+.topo p{margin:0 auto;max-width:520px;font-size:16px;color:#E4EEE8}
+main{max-width:740px;margin:-92px auto 0;padding:0 16px 32px;display:flex;flex-direction:column;gap:20px}
+.card{background:#FFFDF9;border:1px solid #EADFCB;border-radius:22px;padding:24px 20px}
+h2{font-family:'Playfair Display',Georgia,serif;font-weight:800;color:#1E3A2B;margin:4px 0 6px;font-size:25px;line-height:1.2}
+.app{text-align:center;box-shadow:0 14px 34px rgba(30,60,40,.14)}
+.app .logo{width:150px;height:auto}
+.app>p{margin:0 auto 18px;max-width:460px;color:#5C5C5C;font-size:15px}
+.baixar{font:inherit;cursor:pointer;border:0;display:inline-flex;align-items:center;gap:10px;background:#B8322A;color:#fff;text-decoration:none;font-weight:800;font-size:18px;padding:17px 30px;border-radius:999px;box-shadow:0 5px 0 #7E1F19;position:relative;overflow:hidden}
+.baixar:hover{background:#A52C25}
+.baixar:active{transform:translateY(3px);box-shadow:0 2px 0 #7E1F19}
+.baixar::after{content:"";position:absolute;top:0;left:-75%;width:45%;height:100%;background:linear-gradient(100deg,rgba(255,255,255,0),rgba(255,255,255,.5),rgba(255,255,255,0));transform:skewX(-20deg);animation:brilho 4s ease-in-out infinite}
+@keyframes brilho{0%{left:-75%}22%{left:130%}100%{left:130%}}
+@media (prefers-reduced-motion:reduce){.baixar::after{animation:none}}
+.nota{display:block;font-size:13px;color:#5C5C5C;margin-top:16px}
+.usar{display:inline-block;margin-top:8px;padding:8px;font-size:15px;font-weight:700;color:#1E5B3F}
+.guia{text-align:left;background:#E3EFE7;border:2px solid #1E5B3F;border-radius:16px;padding:16px;margin:22px auto 0;max-width:480px}
+.guia b.t{display:block;font-size:17px;color:#1E3A2B;margin-bottom:6px}
+.guia ol{margin:0;padding-left:22px}
+.guia li{margin:7px 0}
+.copiar{font:inherit;font-size:15px;font-weight:800;background:#fff;border:2px solid #1E5B3F;color:#1E5B3F;border-radius:12px;padding:10px 14px;margin-top:10px;width:100%;cursor:pointer}
+.telas{display:flex;justify-content:center;gap:14px;margin-top:24px}
+.telas img{width:44%;max-width:210px;height:auto;border-radius:20px;border:5px solid #1E3A2B;box-shadow:0 12px 24px rgba(0,0,0,.2)}
+.duas{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:14px}
+.bloco{background:#F6EEDF;border-radius:14px;padding:16px}
+.bloco b{display:block;color:#1E3A2B;font-size:16px;margin-bottom:4px}
+.bloco small{display:block;font-size:14px;color:#5C5C5C}
+.aviso{background:#1E5B3F;color:#fff;border:0}
+.aviso h2{color:#fff;font-size:20px}
+.aviso p{margin:0;color:#E4EEE8;font-size:15px}
+footer{text-align:center;font-size:13px;color:#5C5C5C;padding:8px 20px 36px}
+</style>
+</head>
+<body>
+
+<header class="topo">
+<span class="selo"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>Compra confirmada</span>
+<h1>Seu <span>aplicativo</span> chegou</h1>
+<p>Obrigada pela confiança! Instale no celular e comece a montar a sua ceia de Natal.</p>
+</header>
+
+<main>
+
+<section class="card app">
+<img class="logo" src="/img/logo.webp" width="469" height="480" alt="">
+<h2>Aplicativo Ceia Econômica de Natal</h2>
+<p>154 receitas com foto, a Despensa Mágica e o Monte sua Ceia, na tela do seu celular.</p>
+<button class="baixar" id="instalar" type="button"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg><span>Instalar o aplicativo</span></button>
+<div class="guia" id="guia" hidden aria-live="polite"></div>
+<span class="nota">Se puder, use o Wi-Fi: são cerca de 20 MB. Depois de baixar tudo, funciona sem internet.</span>
+<a class="usar" href="/">Abrir no navegador, sem instalar</a>
+<div class="telas"><img src="/obrigado/tela-despensa.webp" width="480" height="1039" alt="Tela da Despensa Mágica"><img src="/obrigado/tela-resultados.webp" width="480" height="1039" alt="Receitas que dá para fazer com o que tem em casa"></div>
+</section>
+
+<section class="card">
+<h2>O que tem no aplicativo</h2>
+<div class="duas">
+<div class="bloco"><b>Despensa Mágica</b><small>Marque o que tem em casa e veja o que dá para fazer, sem comprar nada ou comprando pouco.</small></div>
+<div class="bloco"><b>Monte sua Ceia</b><small>Sorteie um cardápio completo com um toque, quantas vezes quiser.</small></div>
+<div class="bloco"><b>154 receitas com foto</b><small>37 pratos principais, 39 acompanhamentos, 53 sobremesas e 25 entradas e drinks.</small></div>
+<div class="bloco"><b>Lista do que falta</b><small>A receita mostra o que você já tem e o que falta, e monta a lista de compras.</small></div>
+</div>
+</section>
+
+<section class="card aviso">
+<h2>Guarde o e-mail da compra</h2>
+<p>Se trocar de celular, é só abrir esta página e instalar de novo. Em caso de alergias ou restrições alimentares, confira os rótulos e os ingredientes de cada receita.</p>
+</section>
+
+</main>
+
+<footer>Ceia Econômica de Natal · Uso pessoal. Não compartilhe este link.</footer>
+
+<script>
+(function () {
+  var UA = navigator.userAgent;
+  var IOS = /iPhone|iPad|iPod/.test(UA) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  var ANDROID = /Android/.test(UA);
+  var DENTRO = /Instagram|FBAN|FBAV|FB_IAB|TikTok|musical_ly/i.test(UA) || (ANDROID && /; wv\)/.test(UA)) ||
+    (IOS && !/Safari\//.test(UA));
+  var bt = document.getElementById('instalar'), guia = document.getElementById('guia'), pedido = null;
+
+  function mostrar(titulo, passos, copiar) {
+    guia.innerHTML = '<b class="t">' + titulo + '</b>' + (passos.length ? '<ol><li>' + passos.join('</li><li>') + '</li></ol>' : '') +
+      (copiar ? '<button class="copiar" type="button">Copiar o link desta página</button>' : '');
+    guia.hidden = false;
+    var c = guia.querySelector('.copiar');
+    if (c) c.addEventListener('click', function () {
+      var falhou = function () { c.textContent = location.origin + '/obrigado'; };
+      if (!navigator.clipboard) return falhou();
+      navigator.clipboard.writeText(location.origin + '/obrigado').then(function () { c.textContent = 'Link copiado!'; }, falhou);
+    });
+    guia.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  function ensinar() {
+    if (DENTRO) return mostrar('Abra no navegador para instalar', [
+      'Toque nos <b>três pontinhos</b> ou no ícone de navegador desta tela.',
+      'Escolha <b>Abrir no ' + (IOS ? 'Safari' : 'Chrome') + '</b>.',
+      'Na página que abrir, toque em <b>Instalar o aplicativo</b>.'], true);
+    if (IOS) return mostrar('Falta pouco! No iPhone é assim:', [
+      'Toque em <b>Compartilhar</b> (o quadrado com a seta para cima). Se não aparecer, toque antes nos <b>três pontinhos</b>.',
+      'Role e toque em <b>Adicionar à Tela de Início</b>.',
+      'Se aparecer <b>Abrir como App da Web</b>, deixe ligado.',
+      'Toque em <b>Adicionar</b>. Pronto!',
+      'Abra o app no Wi-Fi na primeira vez.'], false);
+    if (ANDROID) return mostrar('Falta pouco! No Android é assim:', [
+      'Toque nos <b>três pontinhos</b> do navegador.',
+      'Toque em <b>Instalar app</b> ou <b>Adicionar à tela inicial</b>.',
+      'Confirme em <b>Instalar</b>. Pronto!'], false);
+    mostrar('Abra esta página no celular', [
+      'Copie o link abaixo e envie para o seu celular, ou abra por lá o e-mail da compra.',
+      'No celular, toque em <b>Instalar o aplicativo</b>.'], true);
+  }
+
+  window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); pedido = e; });
+  window.addEventListener('appinstalled', function () {
+    bt.hidden = true;
+    mostrar('Aplicativo instalado!', ['Procure a árvore da Ceia de Natal na tela do seu celular e toque para abrir.'], false);
+  });
+  bt.addEventListener('click', function () {
+    if (!pedido) return ensinar();
+    var p = pedido; pedido = null;
+    p.prompt();
+  });
+  if ('serviceWorker' in navigator) window.addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function () {}); });
+})();
+</script>
+</body>
+</html>

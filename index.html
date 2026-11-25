@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ceia Econômica de Natal</title>
+<meta name="description" content="Receitas de Natal e a Despensa Mágica: diga o que tem em casa e descubra o que dá para fazer.">
+<meta name="theme-color" content="#1E5B3F">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Ceia de Natal">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="img/icons/favicon-64.png">
+<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+<link rel="preload" as="font" type="font/woff2" href="fonts/bricolage-800.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/nunito-sans.woff2" crossorigin>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+  <header class="topo">
+    <div class="topo-marca">
+      <img class="topo-logo" src="img/logo.webp" alt="" width="46" height="47">
+      <div>
+        <h1>Ceia Econômica <span>de Natal</span></h1>
+      </div>
+    </div>
+    <button class="btn-icone" id="btnSom" aria-label="Desligar sons" title="Sons">🔊</button>
+  </header>
+  <a class="faixa-extras" id="faixaExtras" href="#/extras"></a>
+
+  <main id="tela" tabindex="-1"></main>
+
+  <nav class="abas" aria-label="Seções">
+    <a href="#/principais" data-aba="principais"><span class="ab-ic"><img src="img/ui-web/coxa.webp" alt="" draggable="false"></span><span class="ab-tx">Principais</span></a>
+    <a href="#/acompanhamentos" data-aba="acompanhamentos"><span class="ab-ic"><img src="img/ui-web/salada.webp" alt="" draggable="false"></span><span class="ab-tx">Acompanha&shy;mentos</span></a>
+    <a href="#/despensa" data-aba="despensa" class="aba-magica"><span class="ab-ic"><img src="img/ui-web/brilho.webp" alt="" draggable="false"></span><span class="ab-tx">Despensa Mágica</span></a>
+    <a href="#/sobremesas" data-aba="sobremesas"><span class="ab-ic"><img src="img/ui-web/bolo.webp" alt="" draggable="false"></span><span class="ab-tx">Sobremesas</span></a>
+    <a href="#/entradas" data-aba="entradas"><span class="ab-ic"><img src="img/ui-web/tacas.webp" alt="" draggable="false"></span><span class="ab-tx">Entradas e Drinks</span></a>
+  </nav>
+</div>
+
+<div id="receita" class="folha" role="dialog" aria-modal="true" aria-hidden="true"></div>
+<div id="aviso" class="aviso" role="status" aria-live="polite"></div>
+
+<script src="data/receitas.js"></script>
+<script src="js/sons.js"></script>
+<script src="js/produtos.js"></script>
+<script src="js/codigos.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
